@@ -1,0 +1,31 @@
+module P {
+
+    imports{
+
+        Base 
+		
+    }
+
+    item Paiol
+	{
+		DisplayName					=	Paiol,					
+		DisplayCategory 			= 	Junk,					
+		Icon						=	Paiol,					
+		CustomEatSound 				= 	 ,		
+		Type						=	Food,					
+		StaticModel 				= 	Cigarette,				
+		EatType 					= 	Cigarettes,				
+		WorldStaticModel 			= 	CigarettePack_Ground,	
+		CustomContextMenu 			= 	Smoke,					
+		OnEat 						= 	OnEat_Cigarettes,		
+		RequireInHandOrInventory	=	Matches/Lighter,		
+		AlwaysWelcomeGift			=	TRUE,					
+
+		Weight						=	0.001,					
+		Count						=	5,											
+		StressChange				=	-50,					
+		BoredomChange				=	-50,					
+		UnhappyChange       		=   -50, 					
+		
+	}
+}
