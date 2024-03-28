@@ -1,13 +1,16 @@
+-- Verifica se a tabela Distributions já existe; se não existir, inicializa como uma tabela vazia
 Distributions = Distributions or {};
 
+-- Tabela contendo as configurações de distribuição do item "Paiol" em diferentes locais do jogo
 local distributionTable = {
 
     all = {
         
+        -- Configurações para inventário feminino
         inventoryfemale = {
-            rolls = 1, 
+            rolls = 1,  -- Número de rolagens para determinar a quantidade do item
             items = {
-                "P.Paiol", 10, 
+                "P.Paiol", 10, -- Nome do item e quantidade
             },
         },
         

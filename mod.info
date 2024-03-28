@@ -1,4 +1,12 @@
-name=Paiol
-poster=poster.png
-id=P
-description=Um cigarrinho de palha para acalmar sua sobrevivência!
+-- Informações sobre o item "Paiol":
+-- Nome do item
+name = Paiol
+
+-- Caminho para o arquivo de imagem do poster ou ícone
+poster = poster.png
+
+-- Identificador único para o item
+id = P
+
+-- Descrição do item
+description = Um cigarrinho de palha para acalmar sua sobrevivência!

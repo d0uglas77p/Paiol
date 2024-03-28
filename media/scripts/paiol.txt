@@ -6,26 +6,27 @@ module P {
 		
     }
 
+	-- Definição do item "Paiol":
     item Paiol
 	{
-		DisplayName					=	Paiol,					
-		DisplayCategory 			= 	Junk,					
-		Icon						=	Paiol,					
-		CustomEatSound 				= 	 ,		
-		Type						=	Food,					
-		StaticModel 				= 	Cigarette,				
-		EatType 					= 	Cigarettes,				
-		WorldStaticModel 			= 	CigarettePack_Ground,	
-		CustomContextMenu 			= 	Smoke,					
-		OnEat 						= 	OnEat_Cigarettes,		
-		RequireInHandOrInventory	=	Matches/Lighter,		
-		AlwaysWelcomeGift			=	TRUE,					
+		DisplayName					=	Paiol,						-- Nome exibido do item				
+		DisplayCategory 			= 	Junk,						-- Categoria de exibição do item			
+		Icon						=	Paiol,						-- Ícone do item				
+		CustomEatSound 				= 	 ,							-- Som personalizado ao consumir o item
+		Type						=	Food,						-- Tipo de item				
+		StaticModel 				= 	Cigarette,					-- Modelo estático do item			
+		EatType 					= 	Cigarettes,					-- Tipo de ação ao comer o item			
+		WorldStaticModel 			= 	CigarettePack_Ground,		-- Modelo estático do item no mundo	
+		CustomContextMenu 			= 	Smoke,						-- Menu personalizado ao interagir com o item			
+		OnEat 						= 	OnEat_Cigarettes,			-- Função chamada ao comer o item					
+		RequireInHandOrInventory	=	Matches/Lighter,			-- Item necessário na mão ou inventário para consumir	
+		AlwaysWelcomeGift			=	TRUE,						-- Indica se o item é sempre considerado um presente bem-vindo				
 
-		Weight						=	0.001,					
-		Count						=	5,											
-		StressChange				=	-50,					
-		BoredomChange				=	-50,					
-		UnhappyChange       		=   -50, 					
+		Weight						=	0.001,		-- Peso do item					
+		Count						=	5,			-- Quantidade de itens											
+		StressChange				=	-50,		-- Mudança no estresse ao consumir o item					
+		BoredomChange				=	-50,		-- Mudança no tédio ao consumir o item					
+		UnhappyChange       		=   -50, 		-- Mudança na infelicidade ao consumir o item					
 		
 	}
 }
