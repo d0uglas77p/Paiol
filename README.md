@@ -2,7 +2,7 @@
 
 - #### Mod feito com a linguagem de programação Lua para a comunidade de Project Zomboid
 - #### Versão 1.0
-- #### Disponível na Ofina Steam 
+- #### Disponível na Oficina Steam 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3203373197&searchtext=paiol
 
 #
