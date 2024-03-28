@@ -29,7 +29,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3203373197&searchtext=pai
 
 #
 
-### 1 - Ative o mod no Game.
+### 2 - Ative o mod no Game.
 <div>
 <img align="center"
 <img src="modGame.png" />
@@ -37,7 +37,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3203373197&searchtext=pai
 
 #
 
-### 1 - Encontre o Paiol no Project Zomboid e relaxe... :D.
+### 3 - Encontre o Paiol no Project Zomboid e relaxe... :D.
 <div>
 <img align="center"
 <img src="game.png" />
